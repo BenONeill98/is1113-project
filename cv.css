@@ -1,0 +1,81 @@
+.mainheading {
+    color: black;
+   
+}
+
+
+.cv-background1 {
+    background: url(https://images.pexels.com/photos/285011/pexels-photo-285011.jpeg?w=1260&h=750&auto=compress&cs=tinysrgb);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+}
+
+.cv-background2 {
+     background: url(http://ak4.picdn.net/shutterstock/videos/4635014/thumb/1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    color:white;
+}
+
+.cv-background3 {
+     background: url(https://images.pexels.com/photos/380768/pexels-photo-380768.jpeg?w=1260&h=750&auto=compress&cs=tinysrgb
+     );
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    
+    
+}
+
+p{ color: black
+   
+} 
+
+.mainheading {
+    margin-left  : 40%;
+    font-size : 70px;
+}
+
+p{ margin: 20px;
+    margin-left: 5%;
+    font-size: 40px;
+    color: #152f4e;
+}
+
+
+#next {
+    font-size: 40px;
+    margin-left: 41%;
+    list-style: none;
+    text-decoration: none;
+    color:#da273d;
+}
+
+#next:hover{
+    color:lime;
+}
+
+#home {
+     font-size: 40px;
+    margin-left: 41%;
+    list-style: none;
+    text-decoration: none;
+    color:#da273d;
+    margin-left: 50%
+}
+#home:hover{
+    color:lime;
+}
+
+#school {
+    color:white;
+    margin-left: 35%;
+   font-family: "Times New Roman", Times, serif;
+}
+#work {
+    top: -90%;
+   
+}
+
