@@ -1,81 +1,76 @@
-.mainheading {
-    color: black;
-   
-}
 
-
-.cv-background1 {
-    background: url(https://images.pexels.com/photos/285011/pexels-photo-285011.jpeg?w=1260&h=750&auto=compress&cs=tinysrgb);
+.cv-background1{
+    background: url("https://images.pexels.com/photos/220444/pexels-photo-220444.jpeg?w=1260&h=750&auto=compress&cs=tinysrgb");
     background-repeat: no-repeat;
+    background-position: center;
     background-size: cover;
+    color: white;
+    text-align: center;
     height: 100%;
 }
-
-.cv-background2 {
-     background: url(http://ak4.picdn.net/shutterstock/videos/4635014/thumb/1.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 100%;
-    color:white;
+.mainheading{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 80px;
 }
-
-.cv-background3 {
-     background: url(https://images.pexels.com/photos/380768/pexels-photo-380768.jpeg?w=1260&h=750&auto=compress&cs=tinysrgb
-     );
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 100%;
-    
-    
-}
-
-p{ color: black
-   
-} 
-
-.mainheading {
-    margin-left  : 40%;
-    font-size : 70px;
-}
-
-p{ margin: 20px;
-    margin-left: 5%;
+p{
+    margin-left: 5%
+    font-family: Arial, Helvetica, sans-serif;
     font-size: 40px;
-    color: #152f4e;
 }
-
-
-#next {
-    font-size: 40px;
-    margin-left: 41%;
-    list-style: none;
+a{
+    font-size: 25px;
     text-decoration: none;
-    color:#da273d;
+    border-radius: 10px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: grey;
+    background-color: white;
+}
+a:hover {
+    color: white;
+    border-color: lime;
+    background-color: lime;
+}
+#pic{
+    position: fixed;
+}
+.cv-background2{
+    background: url("https://images.pexels.com/photos/265076/pexels-photo-265076.jpeg?w=1260&h=750&auto=compress&cs=tinysrgb");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    color: white;
+    text-align: center;
+    height: 100%;
 }
 
-#next:hover{
-    color:lime;
+.cv-background3{
+     background: url("https://images.pexels.com/photos/264636/pexels-photo-264636.jpeg?w=1260&h=750&auto=compress&cs=tinysrgb");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    color: white;
+    text-align: center;
+    height: 100%;
 }
-
-#home {
-     font-size: 40px;
-    margin-left: 41%;
-    list-style: none;
-    text-decoration: none;
-    color:#da273d;
-    margin-left: 50%
+#work1{
+    border-radius: 10px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: black;
+    background: black;
 }
-#home:hover{
-    color:lime;
+#work2{
+    border-radius: 10px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: black;
+    background: black;
 }
-
-#school {
-    color:white;
-    margin-left: 35%;
-   font-family: "Times New Roman", Times, serif;
+#work3{
+    border-radius: 10px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: black;
+    background: black;
 }
-#work {
-    top: -90%;
-   
-}
-

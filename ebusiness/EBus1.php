@@ -1,16 +1,32 @@
 <!DOCTYPE html>
 <html>
     <head>
+      
+       <link rel="stylesheet" href="ebus.css" type ="text/css">
+       
+      <div>
+        
+        </div>
+        
         <title>Select Product</title>
         
         <!--jQuery-->
+       
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
         <script type="text/javascript" src="cost_calc.js"></script>
 
     </head>
     
     <body>
-        
+       <ul
+       
+       <div>
+       <a E-Business>
+         </div>
+         
+         <li ><a href="Homepage.html" </a></li>
+         </ul>
+         
             <h4>Select a Product</h4>
             
             <br/>
@@ -24,13 +40,26 @@
               
               <br/>
               
-              <label for="aws">
+              <label for="AWS">
                 <input type="radio" id="aws" name="product" onClick="disablebtnProceed()"/>
-                AWS @ $300
+                Amazon Web Services @ $300
+              </label>
+            
+              <br/>
+              
+              <label for="Cloud9">
+                <input type="radio" id="Cloud9" name="product" onClick="disablebtnProceed()"/>
+                Cloud9 @ $200
               </label>
               
               <br/>
-              <br/>
+              
+              <label for="gmail">
+                <input type="radio" id="gmail" name="product" onClick="disablebtnProceed()"/>
+                Gmail @ $400
+              </label>
+              
+              </br>
               
               <label for="subtotal">
                 Sub Total
@@ -40,19 +69,19 @@
               <br/>
               
               <label for="total">
-                Total
-                <input type="text" id="total" value="0.00" readonly/>
+                
+                <input type="hidden" id="total" name="total" value="0.00" readonly/>
               </label>
     
               <br/>
               
-              <button type="submit" id="btnProceed" disabled>Add to Shopping Cart</button>
-            
+              <button id="cart" type="submit" id="btnProceed" disabled>Add to Shopping Cart</button>
+             
             </form>
             
             <br/>
-            <button onClick="calcSub()">Calculate Cost</button>
-            <a role="button" href="Ebus1.php">Clear Choice</a>
-            
+            <button id="Calculate" onClick="calcSub()">Calculate Cost</button>
+            <a id ="clear" role="button" href="EBus1.php">Clear Choice</a>
+    
     </body>
 </html>

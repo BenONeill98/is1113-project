@@ -4,12 +4,21 @@ function calcSub(){
     
     var argSubTotal;
     
-    if(document.getElementById('salesforce').checked) {
+    if(document.getElementById('salesforce').checked) 
       argSubTotal = 100;
-    }
-    else {
+      
+       
+    if(document.getElementById('aws').checked) 
       argSubTotal = 300;
-    }
+      
+      
+    if(document.getElementById('Cloud9').checked) 
+      argSubTotal = 200;
+      
+  
+      if(document.getElementById('gmail').checked) 
+      argSubTotal = 400;
+    
     
     display(argSubTotal);
 }

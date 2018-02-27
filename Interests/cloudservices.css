@@ -1,0 +1,29 @@
+#section1 {
+    background: url("http://hdqwalls.com/wallpapers/amazon-4k-logo-qhd.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+#section2 {
+    background: url("http://pngimg.com/uploads/gmail_logo/gmail_logo_PNG2.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+#section3 {
+    background: url("https://www.csgowallpapers.com/assets/images/original/mossawi_222186134196_20170216235537_853508709464.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+#section4 {
+    background: url("http://1000logos.net/wp-content/uploads/2017/08/Salesforce-symbol.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.section{
+    color: white;
+    text-align: center;
+    font-size: 60px;
+}
