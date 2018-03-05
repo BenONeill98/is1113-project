@@ -18,15 +18,7 @@
     </head>
     
     <body>
-       <ul
-       
-       <div>
-       <a E-Business>
-         </div>
-         
-         <li ><a href="Homepage.html" </a></li>
-         </ul>
-         
+      
             <h4>Select a Product</h4>
             
             <br/>
@@ -75,13 +67,13 @@
     
               <br/>
               
-              <button id="cart" type="submit" id="btnProceed" disabled>Add to Shopping Cart</button>
+              <button type="submit" id="btnProceed" id="cart" disabled>Add to Shopping Cart</button>
              
             </form>
             
             <br/>
             <button id="Calculate" onClick="calcSub()">Calculate Cost</button>
             <a id ="clear" role="button" href="EBus1.php">Clear Choice</a>
-    
+   
     </body>
 </html>

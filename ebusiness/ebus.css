@@ -1,12 +1,13 @@
 .ebus{
-    background: white;
     margin-top: 5%;
     margin-left: 1%;
 }
 
-
-body {
-    background: white;
+body{
+    background-image: url("https://images.pexels.com/photos/55787/pexels-photo-55787.jpeg?w=1260&h=750&auto=compress&cs=tinysrgb");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
     margin-left: 36%;
     font-size: 30px;
     font-family: Arial, Helvetica, sans-serif;
@@ -59,6 +60,8 @@ body {
     border-color: blue;
     background-color: blue;
 }
+
+
 form{
     margin-top: 10px;
 }
