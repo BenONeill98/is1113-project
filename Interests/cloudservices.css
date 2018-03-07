@@ -3,27 +3,54 @@
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+    color: white;
+    position: absolute;
 }
+
 #section2 {
     background: url("http://pngimg.com/uploads/gmail_logo/gmail_logo_PNG2.png");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+    color: black;
+    position: absolute;
+    font-size: 50px;
 }
+
 #section3 {
     background: url("https://www.csgowallpapers.com/assets/images/original/mossawi_222186134196_20170216235537_853508709464.png");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+    color: black;
+    position: absolute;
+    font-size: 40px;
 }
+
 #section4 {
     background: url("http://1000logos.net/wp-content/uploads/2017/08/Salesforce-symbol.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+    color: black;
+    position: absolute;
+    
+    
 }
+
 .section{
     color: white;
     text-align: center;
     font-size: 60px;
+}
+#salesforce{
+     color: black;
+     font-size: 40px;
+     border-radius: 10px;
+     border-style: solid;
+     border-width: 2px;
+     border-color: grey;
+     border-color: white;
+     background-color: white;
+     margin-top: 30%;
 }

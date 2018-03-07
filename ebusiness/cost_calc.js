@@ -9,11 +9,9 @@ function calcSub(){
     
     if(document.getElementById('salesforce').checked) 
       argSubTotal = 100;
-      
        
     if(document.getElementById('aws').checked) 
       argSubTotal = 300;
-      
       
     if(document.getElementById('Cloud9').checked) 
       argSubTotal = 200;
