@@ -3,15 +3,13 @@
     margin-left: 1%;
 }
 
-body{
-    background-image: url("https://images.pexels.com/photos/55787/pexels-photo-55787.jpeg?w=1260&h=750&auto=compress&cs=tinysrgb");
+#ebus1{
+    background: url("https://images.pexels.com/photos/55787/pexels-photo-55787.jpeg?w=1260&h=750&auto=compress&cs=tinysrgb");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    margin-left: 36%;
-    font-size: 30px;
-    font-family: Arial, Helvetica, sans-serif;
-    margin-top: 8%;
+    Height: 100%;
+    
 }
 
 #clear {
@@ -65,3 +63,12 @@ body{
 form{
     margin-top: 10px;
 }
+
+#details{
+    background: url("https://images.pexels.com/photos/55787/pexels-photo-55787.jpeg?w=1260&h=750&auto=compress&cs=tinysrgb");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin-left: 30%;
+}
+

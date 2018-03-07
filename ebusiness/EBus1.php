@@ -3,10 +3,6 @@
     <head>
       
        <link rel="stylesheet" href="ebus.css" type ="text/css">
-       
-      <div>
-        
-        </div>
         
         <title>Select Product</title>
         
@@ -19,6 +15,8 @@
     
     <body>
       
+        <div id="ebus1">
+          
             <h4>Select a Product</h4>
             
             <br/>
@@ -60,6 +58,24 @@
               
               <br/>
               
+              </br>
+              
+              <label for="discount">
+                Discount
+                <input type="text" id="discount" name="discount" value="0.00" readonly/>
+              </label>
+              
+              <br/>
+              
+               </br>
+              
+              <label for="vat">
+                Vat
+                <input type="text" id="vat" name="vat" value="0.00" readonly/>
+              </label>
+              
+              <br/>
+              
               <label for="total">
                 
                 <input type="hidden" id="total" name="total" value="0.00" readonly/>
@@ -75,5 +91,8 @@
             <button id="Calculate" onClick="calcSub()">Calculate Cost</button>
             <a id ="clear" role="button" href="EBus1.php">Clear Choice</a>
    
+      </div>
+   
     </body>
+    
 </html>

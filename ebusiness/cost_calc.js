@@ -3,6 +3,9 @@
 function calcSub(){
     
     var argSubTotal;
+    var vat;
+    var discount;
+    var total;
     
     if(document.getElementById('salesforce').checked) 
       argSubTotal = 100;
@@ -14,19 +17,32 @@ function calcSub(){
       
     if(document.getElementById('Cloud9').checked) 
       argSubTotal = 200;
-      
-  
-      if(document.getElementById('gmail').checked) 
+     
+    if(document.getElementById('gmail').checked) 
       argSubTotal = 400;
-    
-    
+
+   
     display(argSubTotal);
+    calcDisVatTotal(argSubTotal);
 }
 
-function display(parm1){
+function calcDisVatTotal(parmSubTotal){
+  var argSubTotal = parmSubTotal;
+  var discount = parmSubTotal * 0.05;
+  var discountAfterVat = parmSubTotal - discount;
+  var vat = discountAfterVat * 0.1;
+  var total = (parmSubTotal - discount) + vat;
+  
+  display(argSubTotal, vat, discount, total);
+}
+
+
+function display(parm1, parm2, parm3, parm4){
   
   document.getElementById("subtotal").value = parm1;
-  document.getElementById("total").value = parm1;
+  document.getElementById("vat").value = parm2;
+  document.getElementById("discount").value = parm3;
+  document.getElementById("total").value = parm4;
         
   enablebtnProceed();
 }
@@ -38,3 +54,4 @@ function enablebtnProceed(){
 
 function disablebtnProceed() {
     $('#btnProceed').prop('disabled', true);
+}
