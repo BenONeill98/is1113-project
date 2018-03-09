@@ -88,7 +88,7 @@ p{
     background-color: #3498DB;
     color: white;
     padding: 16px;
-    font-size: 16px;
+    font-size: 18px;
     border: none;
     cursor: pointer;
 }
@@ -117,9 +117,10 @@ p{
 /* Links inside the dropdown */
 .dropdown-content a {
     color: black;
-    padding: 12px 16px;
+    padding: 0px 12px;
     text-decoration: none;
     display: block;
+    font-size: 25px
 }
 
 /* Change color of dropdown links on hover */
@@ -143,7 +144,6 @@ p{
     font-size: 45px;
 }
 #footy2{
-    margin-left: 2%;
     border-radius: 10px;
     border-style: solid;
     border-width: 2px;
@@ -178,3 +178,4 @@ p{
 .ClassName{
     background-color: blue;
 }
+

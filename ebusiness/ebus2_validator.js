@@ -2,7 +2,7 @@
 
 function validateDetails(){
     
-    var pin, user_email, user_name, pass;
+    var pin, user_email, user_name;
 
  pin = document.getElementById("pin").value;
  user_email = document.getElementById("user_email").value;
@@ -13,6 +13,9 @@ function validateDetails(){
     }
     else if (String(pin).length < 4){
         alert("Please make sure your PIN is accurate");
+    }    
+    else if (user_name ==""){
+        alert("Please enter your name");
     }
     else{
         enablebtnPurchase();

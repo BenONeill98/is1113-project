@@ -18,7 +18,7 @@ session_start();
     
     <body>
         
-        <h4>Please enter your payment details</h4>
+        <h4 id="payment">Please enter your payment details</h4>
         
         <div class="details">
             
@@ -26,22 +26,37 @@ session_start();
 
                     <label for="user_name">Name</label>
                     
+                    
                     <input type="name" id="user_name" placeholder="User Name" maxlength="30">
                     
+                    <br/>
+              
+                </br>
+                
                     <label for="user_email">Email</label>
+                    
+               
                     
                     <input type="email" id="user_email" placeholder="Email" maxlength="30">
                     
+                    <br/>
+              
+                </br>
                     <label for="user_pin">Pin</label>
+                    
+               
                     
                     <input type="password" id="user_pin" placeholder="Card PIN" maxlength="4">
 
+                <br/>
+              
+                </br>
                 <button type="submit" id="btnPurchase" disabled>Proceed with Purchase</button>
               
             </form>
             
             <br/>
-            <button onClick="validateDetails()">Validate</button>
+            <button id="validate" onClick="validateDetails()">Validate</button>
             
             </div>
             

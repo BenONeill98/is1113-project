@@ -1,15 +1,14 @@
-.ebus{
-    margin-top: 5%;
-    margin-left: 1%;
-}
 
-#ebus1{
-    background: url("https://images.pexels.com/photos/55787/pexels-photo-55787.jpeg?w=1260&h=750&auto=compress&cs=tinysrgb");
+.ebus1{
+    background: url("https://images.pexels.com/photos/479333/pexels-photo-479333.jpeg?w=1260&h=750&auto=compress&cs=tinysrgb");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    Height: 100%;
-    
+    margin-left: 1%;
+    margin-right: 1%;
+    height: 570px;
+    font-size: 30px;
+  
 }
 
 #clear {
@@ -64,14 +63,65 @@ form{
     margin-top: 10px;
 }
 
-#details{
-    background: url("https://images.pexels.com/photos/55787/pexels-photo-55787.jpeg?w=1260&h=750&auto=compress&cs=tinysrgb");
+.details{
+    background: url("https://images.pexels.com/photos/531972/pexels-photo-531972.jpeg?w=1260&h=750&auto=compress&cs=tinysrgb");
     background-repeat: no-repeat;
     background-position: center;
-    background-size: cover;
-    margin-left: 30%;
+    text-align: center;
+    height: 750px;
+    margin-left: 1%;
+    margin-right: 1%;
 }
+
 .receiptbox{
     font-size: 30px;
 }
+#details{
+     text-align: center;
+     font-size: 20px;
+     margin: 30px;
+}
+#btnPurchase{
+    font-size: 12px;
+    text-decoration: none;
+    border-radius: 10px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: grey;
+    
+}
+#btnPurchase:hover{
+    color: white;
+    border-color: blue;
+    background-color: blue;
+}
+#validate{
+    font-size: 12px;
+    text-decoration: none;
+    border-radius: 10px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: grey;
+    
+}
+#validate:hover{
+    color: white;
+    border-color: blue;
+    background-color: blue;
+}
+#subtotal{
+    font-size: 18px;
+}
 
+#discount{
+    font-size: 18px;
+}
+#vat{
+    font-size: 18px;
+}
+#total{
+    font-size: 18px;
+}
+#payment{
+    margin-left: 30%;
+}
