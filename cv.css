@@ -1,14 +1,13 @@
 
 .cv-background1{
-    background: url("https://images.pexels.com/photos/220444/pexels-photo-220444.jpeg?w=1260&h=750&auto=compress&cs=tinysrgb");
+    background: url("https://images.pexels.com/photos/347144/pexels-photo-347144.jpeg?w=1260&h=750&auto=compress&cs=tinysrgb");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     color: white;
-    text-align: center;
     height: 100%;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 40px;
+    font-size: 30px;
 }
 .mainheading{
     font-family: Arial, Helvetica, sans-serif;
@@ -54,37 +53,27 @@ a:hover {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 40px;
 }
-#work1{
+#work{
     border-radius: 10px;
     border-style: solid;
     border-width: 2px;
     border-color: black;
     background: black;
+    margin-left: 30%;
+    margin-right: 30%;
 }
-#work2{
-    border-radius: 10px;
-    border-style: solid;
-    border-width: 2px;
-    border-color: black;
-    background: black;
-}
-#work3{
-    border-radius: 10px;
-    border-style: solid;
-    border-width: 2px;
-    border-color: black;
-    background: black;
-}
+
 #returnhome{
-    font-size: 25px;
+    font-size: 45px;
     text-decoration: none;
     border-radius: 10px;
     border-style: solid;
     border-width: 2px;
     border-color: grey;
-    background-color: black;
-    margin-left: 47.5%;
+    background-color: lime;
+    margin-left: 45.5%;
     color:white;
+    margin-top: 9%;
 }
 #returnhome:hover {
     color: white;
@@ -93,4 +82,43 @@ a:hover {
 }
 .intro{
     font-size: 20px;
+}
+.mainheadingcv1{
+    margin-left: 6%;
+}
+#school2{
+    font-size: 32px;
+    border-radius: 10px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: grey;
+    background-color: white;
+    margin-left: 20%;
+    color:black;
+    margin-top: -5%;
+    margin-right: 20%;
+}
+#school3{
+    font-size: 32px;
+    border-radius: 10px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: grey;
+    background-color: white;
+    margin-left: 20%;
+    color:black;
+    margin-right: 20%;
+    margin-top: -2%;
+}
+#school{
+    font-size: 30px;
+    margin-top: 1%;
+}
+#year{
+    font-size: 28px;
+    margin-top: -0.1%;
+}
+#year2{
+    font-size: 28px;
+    margin-top: -0.1%;
 }

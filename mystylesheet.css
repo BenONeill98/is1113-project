@@ -50,7 +50,7 @@ p{
     color: black;
 }
 .sport-background {
-    background: url("https://images.unsplash.com/photo-1508098682722-e99c43a406b2?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=10794df94c2543bee8f590b3681452c7&auto=format&fit=crop&w=1050&q=80");
+    background: url("https://images.pexels.com/photos/114296/pexels-photo-114296.jpeg?w=1260&h=750&auto=compress&cs=tinysrgb");
     background-repeat: no-repeat;
     background-size: cover;
     height: 100%;
@@ -138,13 +138,21 @@ p{
     margin-left: 2%; 
 }
 #footy{
-    color: #33E0ff;
+    color: black;
     margin-left: 29%;
     font-size: 45px;
 }
 #footy2{
-    color: #33E0ff;
-    margin-left: 24%;
+    margin-left: 2%;
+    border-radius: 10px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: grey;
+    background-color: white;
+    color: black;
+    margin-left: 12%;
+    margin-right: 12%;
+    
 }
 .mainheadingsp{
     margin-left: 40%;
@@ -156,3 +164,17 @@ p{
     color: #0EC7E8;
 }
 
+#sport{
+    text-decoration: none;
+    border-radius: 10px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: grey;
+    background-color: white;
+    color: black;
+    margin-left: 12%;
+    margin-right: 12%;
+}
+.ClassName{
+    background-color: blue;
+}
