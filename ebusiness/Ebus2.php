@@ -16,18 +16,16 @@ session_start();
         
     </head>
     
-    <body>
+    <body class="details">
         
         <h4 id="payment">Please enter your payment details</h4>
-        
-        <div class="details">
             
             <form action="Ebus3.php" method="POST">
 
                     <label for="user_name">Name</label>
                     
                     
-                    <input type="name" id="user_name" placeholder="User Name" maxlength="30">
+                    <input type="name" id="user_name" name="user_name" placeholder="User Name" maxlength="30">
                     
                     <br/>
               
@@ -37,7 +35,7 @@ session_start();
                     
                
                     
-                    <input type="email" id="user_email" placeholder="Email" maxlength="30">
+                    <input type="email" id="user_email" name="user_email" placeholder="Email" maxlength="30">
                     
                     <br/>
               
@@ -48,7 +46,7 @@ session_start();
                     
                     <input type="password" id="user_pin" placeholder="Card PIN" maxlength="4">
 
-                <br/>
+               <br/>
               
                 </br>
                 <button type="submit" id="btnPurchase" disabled>Proceed with Purchase</button>
@@ -58,7 +56,6 @@ session_start();
             <br/>
             <button id="validate" onClick="validateDetails()">Validate</button>
             
-            </div>
             
             <?php
             
